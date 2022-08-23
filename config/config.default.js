@@ -7,6 +7,7 @@ exports.mysql = {
   },
   app: true,
   agent: false,
+  isPromise: true,
 
   // Single Database
   // client: {
