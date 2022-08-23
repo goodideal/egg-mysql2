@@ -4,10 +4,10 @@ exports.mysql = {
   default: {
     database: null,
     connectionLimit: 10,
+    isPromise: true,
   },
   app: true,
   agent: false,
-  isPromise: true,
 
   // Single Database
   // client: {
